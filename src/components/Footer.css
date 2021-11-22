@@ -12,6 +12,7 @@
     background-color: #C13730;
     min-height: 170px;
     overflow:hidden;
+    color: #fff;
 }
 .awards p{
     margin: 0;
@@ -29,6 +30,7 @@
     background-position:bottom;
     background-repeat: no-repeat;
     background-size: 10rem; */
+    color: #fff;
     
 }
 

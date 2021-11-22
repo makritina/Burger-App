@@ -14,6 +14,7 @@ P{
     font-size: 1.3rem;
     font-weight: bold;
     margin: 20px  20%;
+    color: #fff;
 }
 .bestof h1{
     text-align: center;
@@ -92,6 +93,7 @@ position: relative;
  font-size: 16px;
  border: 0;
  border-radius: 5px;
+ color: #fff;
 }
 
 #btn:focus{
