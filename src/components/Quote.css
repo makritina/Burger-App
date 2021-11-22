@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+.quote{
+    height: calc(100vh - 80px);
+    background-color:#59C4C6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+
+}
+
+.quote h1{
+    font-size: 5rem;
+ font-family: 'Bungee Shade', cursive , sans-serif;
+ position: relative;
+ bottom: 60px;
+ color: #fff;
+}
+#border{
+    background-color: #C13730;
+    
+}
+
+.name-testimonial{
+    font-size: large;
+}
+
+.slide{
+    width:80rem;
+    background-color: pink;
+    ;
+    
+}
+.swiper{
+    width: 70rem;
+    height: 500px;
+    margin: 40px 40px;
+}
+.swiper-container{
+    background-color: red;
+    width: 70rem;
+}
+

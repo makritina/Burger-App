@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+.bestof{
+    font-family: 'Muli', cursive, sans-serif;
+    background-color: #121212;
+    position: relative;
+    margin-top: 80px;
+    overflow-x: hidden;
+    
+}
+P{
+    font-family: 'Muli', cursive, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 20px  20%;
+}
+.bestof h1{
+    text-align: center;
+    padding: 50px 50px;
+    font-size: 4em;
+    
+    
+}
+.bestof span{
+    font-size: 5rem;
+    color: #EF4B3F;
+}
+.bestof h2,
+span{
+    font-family: 'Lobster', cursive , sans-serif;
+    font-size: 4em;
+}
+.bestof h2{
+    color: #F6933C;
+}
+
+#old{
+    color: #EF4B3F;
+}
+.mycol{
+    text-align: center;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bestof img{
+    width: 46.2rem;
+    
+}
+.image{
+position: relative;
+}
+.bestof .image:nth-child(odd)::after{
+        content:'';
+        width: 0; 
+        height: 0; 
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent; 
+  
+        border-right:50px solid #121212; 
+        position:absolute;
+        top:35%;
+        right: 0px;
+        
+    
+}
+.bestof .image:nth-child(even)::after{
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+
+    border-left:50px solid #121212; 
+    position:absolute;
+    top:40%;
+    left: 0px;
+    
+
+}
+
+
+#btn{
+    cursor: pointer;
+ display: inline-block;
+ width: 10rem;
+ background: #EF4B3F;
+ padding: 15px;
+ font-family: inherit;
+ font-size: 16px;
+ border: 0;
+ border-radius: 5px;
+}
+
+#btn:focus{
+    outline:0;
+
+}
+#btn:active{
+    transform: scale(0.98);
+}
+
+
+@media (max-width:1160px){
+    p{
+        font-size: 1rem;
+    }
+    .bestof h2{
+        font-size: 3em;
+    }
+}
+
+@media (max-width:920px ) {
+    #btn{
+        width: 7em;
+        padding: 6px;
+    }
+    p{
+        margin : 5px 5%;
+    }
+
+    .bestof h2{
+        font-size: 2.7em;
+    }
+    
+
+}
+@media (max-width:767.5px ) {
+ .bestof h2{
+    margin: 30px;
+ }
+ #btn{
+     margin-bottom: 30px;
+ }
+ .bestof .image:nth-child(even)::after,
+ .bestof .image:nth-child(odd)::after{
+    border-top: 0;
+    border-bottom: 0; 
+
+    border-left:0;
+ }
+}
+
+@media (max-width:350px){
+    .bestof h1{
+        font-size: 2.4rem;
+    }
+    .bestof span{
+        font-size: 3rem;
+    }
+}
+

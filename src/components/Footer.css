@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.footer{
+   
+    padding: 0;
+    font-family: 'Muli', cursive, sans-serif;
+}
+
+.awards{
+    background-color: #C13730;
+    min-height: 170px;
+    overflow:hidden;
+}
+.awards p{
+    margin: 0;
+}
+.information{
+   min-height: 473px;
+    background-color: #F58829;
+    font-size: 1rem;
+    font-weight: bold;
+   display: flex;
+   justify-content:center;
+  align-items: center;
+  flex-direction: column;
+    /* background-image: url('https://cdn-icons.flaticon.com/png/512/2600/premium/2600470.png?token=exp=1637227888~hmac=d769250b3fcfe4ff7a7c2f281d7058fd');
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 10rem; */
+    
+}
+
+
+.information h2{
+    padding-left: 32px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.information p{ 
+    font-size: 1.2rem;
+    font-weight: normal;
+    
+}
+
+#ph{
+    margin-left: 54.4876px;
+}
+
+
+
+.footer ul li{
+    
+    list-style: none;
+
+}
+.awards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.awards h1{
+    font-family: 'Lobster', cursive , sans-serif;
+    font-size: 2.5rem;
+}
+.awards h2{
+    font-family: 'Lobster', cursive , sans-serif;
+    font-size: 1.7rem;
+}
+
+@media (max-width:1200px){
+    .information p{
+        font-size: 1rem;
+    }
+}
+@media (max-width:991.5px){
+    .information p{
+       width: 20rem;
+       
+    }
+    .information .mycolf{
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto;
+        align-items: center;
+        
+    }
+
+    .information #par{
+     text-align: center;
+    }
+    
+    #ph{
+    padding: 0 0 0 32px;
+    margin: 0;
+    
+    }
+}
+@media (max-width:360px){
+ .footer{
+     overflow-x: hidden;
+ }
+}
+    
+
+
+

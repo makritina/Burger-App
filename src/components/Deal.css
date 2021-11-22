@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.wrap{
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #999999;
+    position: relative;
+    
+}
+.wrap:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1161/1161695.png');
+    background-size: 5rem;
+    
+}
+
+.borderc{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+    height: 25rem;
+    background-color: #59C4C6;
+    border: 2px solid #59C4C6 ;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.borderc h1{
+    margin-bottom: 30px;
+}
+
+.borderc .first{
+    font-family: 'Patua One', cursive , sans-serif;
+    font-size: 3.5rem;
+}
+.borderc .second{
+    font-family: 'Bangers', cursive;
+   color: #F6933C;
+   font-size: 5rem;
+}
+
+.borderc p{
+    font-family: 'Muli' , cursive , sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+#mybtn{
+    background-color: #121212;
+   font-size: 1.2rem;
+    width: 7rem;
+    
+}
+#mybtn:focus{
+    outline:0;
+
+}
+#mybtn:active{
+    transform: scale(0.98);
+}
+
+@media (max-width:700px){
+    .borderc{
+        width: 30rem;
+       height: 20rem;
+    }
+}
+@media (max-width:500px){
+    .borderc{
+        width: 27rem;
+       height: 17rem;
+    }
+}
+@media (max-width:455px){
+    .borderc{
+        width: 20rem;
+       height: 14rem;
+    }
+    .borderc .first,
+    .borderc .second{
+        font-size: 3rem;
+    }
+}
+@media (max-width:350px){
+    .borderc{
+        width: 18rem;
+       height: 13rem;
+    }
+    .borderc .first,
+    .borderc .second{
+        font-size: 2.5rem;
+    }
+}
