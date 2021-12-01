@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 import { Link } from "react-router-dom"
+import StyledLink from './StyledLink.js'
 import './NavBar.css'
 
 const NavBar = () => {
@@ -33,20 +34,20 @@ const NavBar = () => {
 
        </div>
        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-         <li className="nav-item strike">
-           <Link to='/' className="nav-links" onClick={closeMobileMenu}>
+         <li className="nav-item ">
+           <StyledLink to='/' className="nav-links" onClick={closeMobileMenu}>
              Home
-           </Link>
+           </StyledLink>
          </li>
-         <li className="nav-item strike">
-           <Link to='/' className="nav-links" onClick={closeMobileMenu}>
+         <li className="nav-item ">
+           <StyledLink to='/' className="nav-links" onClick={closeMobileMenu}>
              Locations
-           </Link>
+           </StyledLink>
          </li>
-         <li className="nav-item strike">
-           <Link to='/' className="nav-links" onClick={closeMobileMenu}>
+         <li className="nav-item ">
+           <StyledLink to='/' className="nav-links" onClick={closeMobileMenu}>
              Contact
-           </Link>
+           </StyledLink>
          </li>
          <li className="nav-item ">
            <Link to='/'  id="menu" onClick={closeMobileMenu}>
